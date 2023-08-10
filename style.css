@@ -1,6 +1,134 @@
-*{
+* {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-family: 'Heebo', sans-serif;
+     font-family: 'Poppins', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-size: cover;
+     flex-wrap: wrap;
+}
+.bg-header{
+     background-image: url(images/header-bg.png);
+}
+.bg-biography{
+     background-image: url(images/biography-bg.png);
+}
+.bg-latest-work{
+     background-image: url(images/latest-work-bg.png);
+}
+
+.intro-half{
+     width: 40%;
+
+}
+.intro-half img{
+     width: 90%;
+}
+section h1{
+     font-size: 3.5rem;
+     color:#ec4c7a;
+     font-weight: 700;
+     padding-bottom: 10px;
+}
+section h2{
+     font-size: 2.5rem;
+     font-weight: 400;
+}
+section p{
+     color: rgb(104, 104, 104);
+     
+}
+.btn1{
+     border: none;
+     border-radius: 5px;
+     margin-top: 20px;
+     padding: 10px 40px;
+     background-image: linear-gradient(to right, rgb(230, 123, 141), #ed4b72);
+     font-size: .9rem;
+     text-transform:uppercase ;
+     color: white;
+}
+#intro-spacing{
+     padding-left: 5%;
+     width: 50%;
+}
+#bio-img{
+     width: 80%; 
+}
+#bio-p{
+     padding-top: 20px
+}
+
+.latest-work{
+     width: 29%;
+     height: auto;
+     padding-bottom: 50px;
+     padding: 0px 15px 50px 15px;
+}
+#full-width{
+     width: 100%;
+     text-align: center;
+     padding-top: 20px;
+}
+#shrink-latest-work{
+height: 80vh;
+background-size:50%;
+background-repeat: no-repeat;
+}
+.client{
+     text-align: center;
+     flex-direction: column;
+     background-image: url(images/footer-bg.png);
+     background-size:contain ;
+
+}
+.gmail{
+     border-radius: 10px;
+     background-image: linear-gradient(60deg,#EC5299,#ED4B6E);
+     padding: 35px 150px ;   
+     margin-bottom: 50px;
+}
+.gmail p{
+     color: white;
+     font-weight: 300;
+     width: 100%;
+  
+}
+.gmail h2{
+     color: white;
+     font-size: 1.5rem;
+     padding: 20px;
+}
+.client h3{
+     font-size: 2.5rem;
+     font-weight: 600;
+     color: rgb(68, 66, 66);
+     padding: 30px 0px 50px 0px;
+}
+.founder{
+     padding-bottom: 50px;
+}
+.founder h4{
+     font-size: 1.5rem;
+     font-weight: 500; 
+}
+
+.Lorem{
+     font-size: 1.2rem;
+     color: black;
+     font-weight: 500;
+     width: 50%;
+     padding-bottom: 50px;
+}
+.footer{
+     height: 100px;
+     text-align: center;
+     color: grey;
 }
